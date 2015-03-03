@@ -41,7 +41,6 @@ public class PageFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_page, container, false);
 
         TextView tv1 = (TextView) view.findViewById(R.id.textView2);
-
         Button button1 = (Button) view.findViewById(R.id.button1);
         Button button2 = (Button) view.findViewById(R.id.button2);
         Button button3 = (Button) view.findViewById(R.id.button3);
