@@ -7,10 +7,13 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
- * Created by ajacks52 on 2/27/15.
+ * Created on 2/27/15.
  */
 public class FragmentPageAdder extends FragmentPagerAdapter {
 
+    /*
+     * Number of pages to be made, must update the array tabTitles, and the PAGE_COUNT variable.
+     */
     final int PAGE_COUNT = 4;
     private String tabTitles[] = new String[] { "Tab 1", "Tab 2", "Tab 3", "Tab 4" };
     private Context context;

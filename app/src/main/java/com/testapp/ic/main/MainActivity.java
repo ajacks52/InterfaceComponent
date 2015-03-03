@@ -9,7 +9,9 @@ import com.testapp.ic.R;
 import com.testapp.ic.content.FragmentPageAdder;
 import com.testapp.ic.layout.SlidingTabLayout;
 
-
+/**
+ * Created on 2/27/15.
+ */
 public class MainActivity extends FragmentActivity {
 
     @Override
