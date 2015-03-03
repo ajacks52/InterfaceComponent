@@ -37,22 +37,37 @@ public class PageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_page, container, false);
 
-        TextView textView1 = (TextView) view;
-        textView1.setText("Fragment #" + mPage);
+        TextView tv1 = (TextView) view.findViewById(R.id.textView2);
+
+        Button button1 = (Button) view.findViewById(R.id.button1);
+        Button button2 = (Button) view.findViewById(R.id.button2);
+        Button button3 = (Button) view.findViewById(R.id.button3);
+
+        tv1.setText("Fragment # "+mPage+" \n\nTextView, you can edit me in " +
+                "the onCreateView method of the PageFragment class. Give me a slide.");
+
+        switch (mPage)
+        {
+            /* inflate 2 views */
+            case 2: button1.setVisibility(View.VISIBLE);
+                break;
+            /* inflate 3 views */
+            case 3: button1.setVisibility(View.VISIBLE);
+                button2.setVisibility(View.VISIBLE);
+                break;
+            /* inflate 4 views */
+            case 4:
+                button1.setVisibility(View.VISIBLE);
+                button2.setVisibility(View.VISIBLE);
+                button3.setVisibility(View.VISIBLE);
+                break;
+            default: // don't do anything
+        }
 
 
-
-
-//        for (String key : titles.keySet()) {
-//            View row = inflater.inflate(R.layout.row, vg, false);
-//            TextView label = (TextView) row.findViewById(R.id.textView1);
-//            label.setText(key);
-//            TextView value = (TextView) row.findViewById(R.id.textView2);
-//            value.setText(getArg(key));
-//            vg.addView(row);
-//        }
         return view;
     }
 }
