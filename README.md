@@ -4,11 +4,11 @@ This interface component is made to be easily forked into anyones project it pro
 ## Features
 ### Sliding Tabs
 To switch screens (fragments) swipe across or press in the menu area.
-![Image 1](https://github.com/ajacks52/InterfaceComponent/screenshots/one.png "Screen 1")
+![](https://github.com/ajacks52/InterfaceComponent/screenshots/one.png)
 
-![Image 2](https://github.com/ajacks52/InterfaceComponent/screenshots/two.png "Screen 1-2")
+![](https://github.com/ajacks52/InterfaceComponent/screenshots/two.png)
 
-![Image 3](https://github.com/ajacks52/InterfaceComponent/screenshots/three.png "Screen 4")
+![](https://github.com/ajacks52/InterfaceComponent/screenshots/three.png)
 
 ## Code Samples
 
