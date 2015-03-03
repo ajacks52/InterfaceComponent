@@ -4,11 +4,8 @@ This interface component is made to be easily forked into anyones project it pro
 ## Features
 ### Sliding Tabs
 To switch screens (fragments) swipe across or press in the menu area.
-![words](/screenshots/one.png)
+![](/screenshots/one.png)
 
-![more words](/screenshots/two.png)
+![](/screenshots/two.png)
 
-![even more words](/screenshots/three.png)
-
-## Code Samples
-
+![](/screenshots/three.png)
